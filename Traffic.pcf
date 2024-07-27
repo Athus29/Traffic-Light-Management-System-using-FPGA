@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.58f on Tue May 03 16:28:25 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "light_MT_Y" LOCATE = SITE "P79" LEVEL 1;
+COMP "clk" LOCATE = SITE "P95" LEVEL 1;
+COMP "light_M1_G" LOCATE = SITE "P44" LEVEL 1;
+COMP "light_M2_G" LOCATE = SITE "P56" LEVEL 1;
+COMP "light_M1_R" LOCATE = SITE "P48" LEVEL 1;
+COMP "light_M2_R" LOCATE = SITE "P61" LEVEL 1;
+COMP "light_M1_Y" LOCATE = SITE "P46" LEVEL 1;
+COMP "light_M2_Y" LOCATE = SITE "P58" LEVEL 1;
+COMP "light_S_G" LOCATE = SITE "P83" LEVEL 1;
+COMP "light_MT_G" LOCATE = SITE "P75" LEVEL 1;
+COMP "light_S_R" LOCATE = SITE "P88" LEVEL 1;
+COMP "rst" LOCATE = SITE "P27" LEVEL 1;
+COMP "light_MT_R" LOCATE = SITE "P81" LEVEL 1;
+COMP "light_S_Y" LOCATE = SITE "P85" LEVEL 1;
+SCHEMATIC END;
+

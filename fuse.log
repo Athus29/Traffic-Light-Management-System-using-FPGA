@@ -1,0 +1,22 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic_tb_isim_beh.exe" -prj "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic_tb_beh.prj" "work.Traffic_tb" "work.glbl" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.v" into library work
+Analyzing Verilog file "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic_tb.v" Line 9: Port clock_out is not connected to this instance
+Completed static elaboration
+Compiling module Traffic
+Compiling module Traffic_tb
+WARNING:Simulator:833 - "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic_tb.v" Line 24. Negative delay (-1863462912000.000000) treated as 0.
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\Traffic_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 3 Verilog Units
+Built simulation executable D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic_tb_isim_beh.exe
+Fuse Memory Usage: 28260 KB
+Fuse CPU Usage: 452 ms

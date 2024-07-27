@@ -1,0 +1,18 @@
+NET clk LOC = P95 ;
+NET rst LOC = P27 ;
+
+NET light_M1_R  LOC = P48 ; //JA1	
+NET light_M1_Y LOC = P46  ;//JA2
+NET light_M1_G  LOC = P44  ;//JA3
+
+NET light_M2_R  LOC = P61 ; //JB1	
+NET light_M2_Y LOC = P58  ;//JB2
+NET light_M2_G  LOC = P56  ;//JB3
+
+NET light_MT_R  LOC = P81 ; //JC1	
+NET light_MT_Y LOC = P79  ;//JC2
+NET light_MT_G  LOC = P75  ;//JC3
+
+NET light_S_R  LOC = P88 ; //JD2	
+NET light_S_Y LOC = P85  ;//JD3
+NET light_S_G  LOC = P83  ;//JD4

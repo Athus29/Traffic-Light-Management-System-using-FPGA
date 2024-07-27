@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.xst" -ofn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Traffic_ucf.ucf -p xc6slx9-tqg144-3 "Traffic.ngc" Traffic.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Traffic_map.ncd Traffic.ngd Traffic.pcf 
+par -w -intstyle ise -ol high -mt off Traffic_map.ncd Traffic.ncd Traffic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Traffic.twx Traffic.ncd -o Traffic.twr Traffic.pcf -ucf Traffic_ucf.ucf 
+bitgen -intstyle ise -f Traffic.ut Traffic.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Traffic.ngc Traffic_synthesis.v 
+xst -intstyle ise -ifn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.xst" -ofn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Traffic_ucf.ucf -p xc6slx9-tqg144-3 "Traffic.ngc" Traffic.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Traffic_map.ncd Traffic.ngd Traffic.pcf 
+par -w -intstyle ise -ol high -mt off Traffic_map.ncd Traffic.ncd Traffic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Traffic.twx Traffic.ncd -o Traffic.twr Traffic.pcf -ucf Traffic_ucf.ucf 
+bitgen -intstyle ise -f Traffic.ut Traffic.ncd 
+xst -intstyle ise -ifn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.xst" -ofn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Traffic_ucf.ucf -p xc6slx9-tqg144-3 "Traffic.ngc" Traffic.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Traffic_map.ncd Traffic.ngd Traffic.pcf 
+par -w -intstyle ise -ol high -mt off Traffic_map.ncd Traffic.ncd Traffic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Traffic.twx Traffic.ncd -o Traffic.twr Traffic.pcf -ucf Traffic_ucf.ucf 
+bitgen -intstyle ise -f Traffic.ut Traffic.ncd 
+xst -intstyle ise -ifn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.xst" -ofn "D:/Personal/XIE/Semesters/TE/Sem VI/Mini Project 2-B/Simulation/Traffic_Light_Control/Traffic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Traffic_ucf.ucf -p xc6slx9-tqg144-3 "Traffic.ngc" Traffic.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Traffic_map.ncd Traffic.ngd Traffic.pcf 
+par -w -intstyle ise -ol high -mt off Traffic_map.ncd Traffic.ncd Traffic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Traffic.twx Traffic.ncd -o Traffic.twr Traffic.pcf -ucf Traffic_ucf.ucf 
+bitgen -intstyle ise -f Traffic.ut Traffic.ncd 
