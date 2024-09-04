@@ -41,6 +41,3 @@ The system operates on a finite state machine (FSM) to handle traffic light tran
 ## Results
 
 The FPGA-based Traffic Light Management System was successfully implemented and tested on the Spartan-6 board. The traffic lights operated in accordance with the FSM design, cycling through all six states.
-
-- **State Transitions**: All transitions between traffic light states worked as expected.
-- **Traffic Light Response**: The lights switched in a timely manner according to the programmed delay intervals.
