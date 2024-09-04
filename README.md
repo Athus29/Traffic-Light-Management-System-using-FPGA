@@ -27,7 +27,7 @@ The primary objective of the project is to design and implement a traffic light 
 - **Spartan-6 XC6SLX9 FPGA Board**
 - **LEDs** (Red, Yellow, Green) for representing traffic signals
 - **Resistors** for LED protection
-- **Breadboard** for circuit assembly
+- **Breadboard** for circuit assembly and connecting wires
 
 ### Software
 - **Xilinx ISE WebPack**: Used for synthesizing and simulating Verilog code.
